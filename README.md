@@ -13,3 +13,5 @@ The objective for this figure is to provide two main information’s- (i) Relati
 
 
 A circus plot plant category does not mean that the metabolite is specific to it, but rather have the highest intensity among all compared plant species, and then the heatmap showed its levels across other species. As can be seen from this plot, metabolites been highly accumulated in Ophiorrhiza are specific to it, and belongs to MIA and other specialized metabolite classes. Similarly, two licorice plants, G. uralensis and G. glabra, showed very similar types and accumulation of metabolites, which is what we expected as both plants are known to have similar chemotypes. 
+
+In order to reproduce Fig. 4 of the manuscript, titled, "Multi-scaffolding driven chromosome-level Ophiorrhiza genome revealed gene-cluster centered evolution of camptothecin biosynthesis", one need to download all dataset including link files, and simply run the rscript.
