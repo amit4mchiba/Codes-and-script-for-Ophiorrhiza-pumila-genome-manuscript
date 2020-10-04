@@ -1,0 +1,2 @@
+seg1	pos1	name1	seg2	pos2	name2
+1	177	Terpene glycosides	4	59	Terpene glycosides

@@ -1,0 +1,7 @@
+seg1	pos1	name1	seg2	pos2	name2
+1	125	Organic acids	3	39	Organic acids
+1	125	Organic acids	3	41	Organic acids
+1	125	Organic acids	4	53	Organic acids
+1	125	Organic acids	5	25	Organic acids
+1	125	Organic acids	5	27	Organic acids
+1	125	Organic acids	11	47	Organic acids
