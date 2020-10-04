@@ -10,4 +10,6 @@ The objective for this figure is to provide two main information’s- (i) Relati
 2.	We next assigned any metabolite identified in Ophiorrhiza pumila to it’s category, as we wanted to represent accumulation of identified metabolites with respect to other plant species.
 3.	For the metabolites that were not identified in Ophiorrhiza pumila, we assigned it to the plant as category that showed highest accumulation among rest of the plant species. 
 4.	We next plotted its accumulation across all 12 plant species as the heatmap.
+
+
 A circus plot plant category does not mean that the metabolite is specific to it, but rather have the highest intensity among all compared plant species, and then the heatmap showed its levels across other species. As can be seen from this plot, metabolites been highly accumulated in Ophiorrhiza are specific to it, and belongs to MIA and other specialized metabolite classes. Similarly, two licorice plants, G. uralensis and G. glabra, showed very similar types and accumulation of metabolites, which is what we expected as both plants are known to have similar chemotypes. 
