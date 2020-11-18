@@ -1,38 +1,26 @@
 #!/bin/sh
 #$ -S /bin/sh
 #$ -l medium
-#$ -N Ggmeta281020
-#$ -o Ggmeta281020_output2
-#$ -e Ggmeta281020_error2
+#$ -N Opumila
+#$ -o Opumila_output
+#$ -e Opumila_error
 #$ -pe def_slot 16-120
 #$ -l mem_req=16G
 #$ -l s_vmem=16G
 #$ -cwd
 
-#utgOvlErrorRate=0.085 \
 
-#This is the first metaassembly derived using corrected and split reads, Before that, I used this command, ln -s ../32_G_glabra_split_assembly.fasta ./ to create a soft link, and then called this link. This is better.
+#This is the example script. We used different parameters and created multiple contig assemblies using different lengths, error rates and so on.
+# Specific parameters and the resulting assembly statistics are described in the method section and available as supplementary file.
 
-/lustre7/home/lustre3/amit-rai8chiba/canu-2.0/Linux-amd64/bin/canu -assemble \
--p Gg_meta_all_l10k -d ./Gg_meta_all_l10k \
+/lustre7/home/lustre3/amit-rai8chiba/canu-2.0/Linux-amd64/bin/canu \
+-p Opumila -d ./Opumila \
 genomeSize=400m \
--pacbio-corrected ./Gglabra_purged_all60_combined.fasta \
+-pacbio ./Opumila_all_raw_PACBIO.fasta \
 useGrid=0 \
-#cnsConsensus=utgcns \
-minOverlapLength=10000 \
+minOverlapLength=1000 \
 minReadLength=10000 \
-gridOptionsJobName=Ggmeta281020 \
-correctedErrorRate=0.02 \
+gridOptionsJobName=Opumila \
+correctedErrorRate=0.085 \
 executiveMemory=$NSLOTS
 
-/lustre7/home/lustre3/amit-rai8chiba/canu-2.0/Linux-amd64/bin/canu -assemble \
--p Gg_meta_all_l5k -d ./Gg_meta_all_l5k \
-genomeSize=400m \
--pacbio-corrected ./Gglabra_purged_all60_combined.fasta \
-useGrid=0 \
-#cnsConsensus=utgcns \
-minOverlapLength=5000 \
-minReadLength=10000 \
-gridOptionsJobName=Ggmeta281020 \
-correctedErrorRate=0.02 \
-executiveMemory=$NSLOTS
