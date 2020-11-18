@@ -1,0 +1,8 @@
+<jellyProtocol>
+    <reference>/mnt/md0/PBSuite_15.8.24/Pbjelly_analysis_9thJuly2018/data/reference/pga_o_pumila_bn_contigs.fasta</reference>  
+    <outputDir>/mnt/md0/PBSuite_15.8.24/Pbjelly_analysis_9thJuly2018/Pbjelly_Output_13thJuly2018/</outputDir>
+    <blasr>-minMatch 8 -minPctIdentity 70 -bestn 1 -nCandidates 10 -maxScore -500 -nproc 32 -noSplitSubreads</blasr>
+    <input baseDir="/mnt/md0/PBSuite_15.8.24/Pbjelly_analysis_9thJuly2018/data/reads/">
+        <job>O_pumila_genomesupport3cell_kurabo_novagene_RQ_removed.fastq</job>
+    </input>
+</jellyProtocol>
