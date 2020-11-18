@@ -1,17 +1,31 @@
-# Circos-plot-for-12-plant-metabolome-analysis
-The data and scripts were used to create circos plot for Fig. 4 of the manuscript
+# De novo genome assembly using Bionano optical map datasets
+Acquired Bionano optical maps sequencing datasets were first filtered using length cutoff as 150
+Kb and were used to derive Bionano de novo genome assembly. We used Canu-assembly as the
+reference genome to guide de novo genome assembly and generated the “.cmap” file with length
+cutoff as 20 Kb and at least five restriction digestion sites. Following commands were used to run
+Bionano Solve (v 3.1) for reference guided genome assembly pipelinepython
+pipelineCL.py -U -T 60 -j 60 -N 8 -f 0.3 -i 5 -y -b Molecules.bnx \
+-l Output_Pumila \
+-t ./RefAligner/6700.6902rel \
+-a ./RefAligner/6700.6902rel/optArguments_haplotype_irys.xml \
+-r Canu-assembly_BSSSI_20kb_5labels.cmap
+Final de novo assembly using Bionano optical maps consisted of 458 scaffolds with scaffold N50
+as 1.68 Mb and a cumulative assembly length of 442 Mb, with over 83% of optical maps mapped
+to the Bionano de novo assembly. We next used Bionano de novo genome assembly to detect any
+mis-assembly in the Canu-assembly and Falcon-unzip phased genome assembly.
 
-Metabolites of Ophiorrhiza pumila, assigned using 13C and 15N stable isotope labeling, compared with metabo-space of 11 plant species. The connections between metabolite features are based on metabolite network relationships defined by a correlation coefficient greater than 0.85. Highly accumulated metabolites across 12 plant species and their relationships in the form of metabo-ontology and scaled accumulation levels as a heat-map are shown here. Metabolites were filtered (log10 intensity > 3.9) and assigned to the Ophiorrhiza pumila category. If a metabolite were not detected in Ophiorrhiza pumila, then the metabolite was assigned to the plant category with the highest accumulation compared to the rest of the plant species. * indicates chemically assigned metabolites based on pure standards or MS/MS analysis using public databases.
+# Assembly scaffolding
+In this study, we performed scaffolding using Bionano de novo genome assembly as well as Hi-C
+library pair-end sequencing datasets. Canu-assembly (or Falcon-unzip-assembly or genome
+assemblies scaffolded using Hi-C library) was used together with Bionano de novo assembly to
+derive hybrid scaffolding using Bionano Solve v3.0.1 software using the following commandperl
+hybridScaffold.pl -n Canu-assembly.fasta -b Bionano_denovo_assembly.cmap -c
+hybridScaffold_config_aggressive.xml \
+-r ./Solve3.1_08232017/RefAligner/6700.6902rel/avx/RefAligner \
+-o output -B2 -N2 -x -y \
+-m Molecules.bnx \
+-p ./Solve3.1_08232017/Pipeline/08212017 \
+-q ./REFALIGNER/6700.6902rel/optArguments_nonhaplotype_irys.xml \
+-e autoNoise1.errbin
 
-The metabo-ontologies shown in this figure are classification of metabolites based on daughter ions that are specific or related to an ontology term.
-
-The objective for this figure is to provide two main information’s- (i) Relative accumulation of metabolites identified across 12 plant species, and (ii) Linkage between species based on daughter ions based metabolite-ontology based classification. The links between two boxes are based on daughter ions based metabo-ontology as described in Tsugawa et al. 2019. For the circus plot, these are steps we followed-
-1.	We first filtered metabolites based on intensity irrespective of plant species (log10 intensity > 3.9). In total, we obtained 424 metabolites across 12 plant species, including 91 metabolites for O. pumila.
-2.	We next assigned any metabolite identified in Ophiorrhiza pumila to it’s category, as we wanted to represent accumulation of identified metabolites with respect to other plant species.
-3.	For the metabolites that were not identified in Ophiorrhiza pumila, we assigned it to the plant as category that showed highest accumulation among rest of the plant species. 
-4.	We next plotted its accumulation across all 12 plant species as the heatmap.
-
-
-A circus plot plant category does not mean that the metabolite is specific to it, but rather have the highest intensity among all compared plant species, and then the heatmap showed its levels across other species. As can be seen from this plot, metabolites been highly accumulated in Ophiorrhiza are specific to it, and belongs to MIA and other specialized metabolite classes. Similarly, two licorice plants, G. uralensis and G. glabra, showed very similar types and accumulation of metabolites, which is what we expected as both plants are known to have similar chemotypes. 
-
-In order to reproduce Fig. 4 of the manuscript, titled, "Multi-scaffolding driven chromosome-level Ophiorrhiza genome revealed gene-cluster centered evolution of camptothecin biosynthesis", one need to download all dataset including link files, and simply run the rscript.
+# All figures related to assembly validation and other statistics are available through the manuscript. 
