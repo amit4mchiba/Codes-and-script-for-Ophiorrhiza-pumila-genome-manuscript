@@ -1,17 +1,5 @@
-# Circos-plot-for-12-plant-metabolome-analysis
-The data and scripts were used to create circos plot for Fig. 4 of the manuscript
+# Hi-C scaffolding
 
-Metabolites of Ophiorrhiza pumila, assigned using 13C and 15N stable isotope labeling, compared with metabo-space of 11 plant species. The connections between metabolite features are based on metabolite network relationships defined by a correlation coefficient greater than 0.85. Highly accumulated metabolites across 12 plant species and their relationships in the form of metabo-ontology and scaled accumulation levels as a heat-map are shown here. Metabolites were filtered (log10 intensity > 3.9) and assigned to the Ophiorrhiza pumila category. If a metabolite were not detected in Ophiorrhiza pumila, then the metabolite was assigned to the plant category with the highest accumulation compared to the rest of the plant species. * indicates chemically assigned metabolites based on pure standards or MS/MS analysis using public databases.
+Hi-C based scaffolding of Canu-Bionano-assembly, after splitting assembly at the gaps, was derived through the Proximo Hi-C scaffolding pipeline (Phase genomics, CA, USA), as described previously. The proximity-guided assembly performed chromosome clustering and determined contig orientations. Briefly, the Proximo Hi-C scaffolding pipeline is based on an enhanced version of LACHESIS algorithm, which additionally performs scaffold optimization and quality-control steps based on interaction probabilities to group and orient contigs. Hi-C interactions binned the contigs into eleven groups (corresponding to the haploid or phased chromosomes) and successfully oriented all contigs. The gap-size between the ordered contigs was set to 25 bp. Canu-assembly, scaffolded through Bionano followed by Hi-C, was further tested for the assembly conflicts and was thoroughly verified using Hi-C reads based contact matrix, Bionano raw reads and Bionano de novo assembly (Fig. 3b-l, and Supplementary Figs. 8-9).
 
-The metabo-ontologies shown in this figure are classification of metabolites based on daughter ions that are specific or related to an ontology term.
-
-The objective for this figure is to provide two main information’s- (i) Relative accumulation of metabolites identified across 12 plant species, and (ii) Linkage between species based on daughter ions based metabolite-ontology based classification. The links between two boxes are based on daughter ions based metabo-ontology as described in Tsugawa et al. 2019. For the circus plot, these are steps we followed-
-1.	We first filtered metabolites based on intensity irrespective of plant species (log10 intensity > 3.9). In total, we obtained 424 metabolites across 12 plant species, including 91 metabolites for O. pumila.
-2.	We next assigned any metabolite identified in Ophiorrhiza pumila to it’s category, as we wanted to represent accumulation of identified metabolites with respect to other plant species.
-3.	For the metabolites that were not identified in Ophiorrhiza pumila, we assigned it to the plant as category that showed highest accumulation among rest of the plant species. 
-4.	We next plotted its accumulation across all 12 plant species as the heatmap.
-
-
-A circus plot plant category does not mean that the metabolite is specific to it, but rather have the highest intensity among all compared plant species, and then the heatmap showed its levels across other species. As can be seen from this plot, metabolites been highly accumulated in Ophiorrhiza are specific to it, and belongs to MIA and other specialized metabolite classes. Similarly, two licorice plants, G. uralensis and G. glabra, showed very similar types and accumulation of metabolites, which is what we expected as both plants are known to have similar chemotypes. 
-
-In order to reproduce Fig. 4 of the manuscript, titled, "Multi-scaffolding driven chromosome-level Ophiorrhiza genome revealed gene-cluster centered evolution of camptothecin biosynthesis", one need to download all dataset including link files, and simply run the rscript.
+Assembly stats and other details are provided through manuscript supplimentary file
