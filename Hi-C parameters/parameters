@@ -1,0 +1,19 @@
+
+# Parameters used to achieve scaffolding using PGA pipeline for different combinations of genome assemblies were as follows-
+Canu-assembly+Bionano+PGA assembly parameters:
+SAM_FILES = o_pumila_bn_contigs.bam
+RE_SITE_SEQ = GATC
+USE_REFERENCE = 0
+SIM_BIN_SIZE = 50000
+DO_CLUSTERING = 1
+DO_ORDERING   = 1
+CLUSTER_N = 11
+CLUSTER_MIN_RE_SITES = 331
+CLUSTER_MAX_LINK_DENSITY = 2.35822741578
+CLUSTER_NONINFORMATIVE_RATIO = 1.67623320926
+ORDER_MIN_N_RES_IN_TRUNK = 1481
+ORDER_MIN_N_RES_IN_SHREDS = 1
+ORDER_ESTIMATE_GAPS = 0
+ORDER_DRAW_DOTPLOTS = 1
+REPORT_EXCLUDED_GROUPS = -1
+REPORT_QUALITY_FILTER = 100
