@@ -1,0 +1,25 @@
+seg1	pos1	name1	seg2	pos2	name2
+1	71	Flavone O-glycosides	1	73	Flavone O-glycosides
+1	71	Flavone O-glycosides	3	27	Flavone O-glycosides
+1	71	Flavone O-glycosides	4	39	Flavone O-glycosides
+1	71	Flavone O-glycosides	7	19	Flavone O-glycosides
+1	71	Flavone O-glycosides	7	21	Flavone O-glycosides
+1	71	Flavone O-glycosides	7	23	Flavone O-glycosides
+1	71	Flavone O-glycosides	7	25	Flavone O-glycosides
+1	71	Flavone O-glycosides	7	27	Flavone O-glycosides
+1	71	Flavone O-glycosides	9	29	Flavone O-glycosides
+1	71	Flavone O-glycosides	10	15	Flavone O-glycosides
+1	71	Flavone O-glycosides	10	17	Flavone O-glycosides
+1	71	Flavone O-glycosides	10	19	Flavone O-glycosides
+1	73	Flavone O-glycosides	1	71	Flavone O-glycosides
+1	73	Flavone O-glycosides	3	27	Flavone O-glycosides
+1	73	Flavone O-glycosides	4	39	Flavone O-glycosides
+1	73	Flavone O-glycosides	7	19	Flavone O-glycosides
+1	73	Flavone O-glycosides	7	21	Flavone O-glycosides
+1	73	Flavone O-glycosides	7	23	Flavone O-glycosides
+1	73	Flavone O-glycosides	7	25	Flavone O-glycosides
+1	73	Flavone O-glycosides	7	27	Flavone O-glycosides
+1	73	Flavone O-glycosides	9	29	Flavone O-glycosides
+1	73	Flavone O-glycosides	10	15	Flavone O-glycosides
+1	73	Flavone O-glycosides	10	17	Flavone O-glycosides
+1	73	Flavone O-glycosides	10	19	Flavone O-glycosides

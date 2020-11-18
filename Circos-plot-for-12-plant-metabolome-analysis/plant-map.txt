@@ -1,0 +1,425 @@
+seg	po	class	log intensity
+1	1	Amino acids	4.396112131
+1	3	Amino acids	4.827944074
+1	5	Amino acids	4.613630435
+1	7	Amino acids	3.769672664
+1	9	Amino acids	4.581596985
+1	11	Anthraquinones	4.91738471
+1	13	Anthraquinones	4.915848146
+1	15	Anthraquinones	4.730402708
+1	17	Anthraquinones	4.593164182
+1	19	Anthraquinones	4.584568664
+1	21	Anthraquinones	4.264676182
+1	23	Anthraquinones	4.239149265
+1	25	Anthraquinones	4.145755624
+1	27	Anthraquinones	4.128625405
+1	29	Caffeic acid and derivatives	3.833147112
+1	31	Caffeic acid and derivatives	3.187520721
+1	33	Carbolines	5.130745349
+1	35	Carbolines	4.96226513
+1	37	Carbolines	4.937086392
+1	39	Carbolines	4.891715822
+1	41	Carbolines	4.511722976
+1	43	Carbolines	4.500016801
+1	45	Carbolines	4.361878869
+1	47	Carbolines	4.309140245
+1	49	Carbolines	4.28302971
+1	51	Carbolines	4.075510465
+1	53	Carbolines	3.684665864
+1	55	Carbolines	3.15136985
+1	57	Carbolines	3.117602692
+1	59	Cinnamic acid and derivatives	3.610447221
+1	61	Coumarin and derivatives	3.222196046
+1	63	Fatty acids	3.853454841
+1	65	Ferulic acid and derivatives	4.641474111
+1	67	Ferulic acid and derivatives	4.023499382
+1	69	Flavone C-glycosides	3.630224411
+1	71	Flavone O-glycosides	4.631281386
+1	73	Flavone O-glycosides	4.686931061
+1	75	Flavonol O-glycosides	4.168939214
+1	77	Flavonol O-glycosides	4.128625405
+1	79	Flavonol O-glycosides	3.718003168
+1	81	Indole and derivatives	4.431588896
+1	83	Iridoid glycosides	4.702327121
+1	85	Iridoid glycosides	4.196314385
+1	87	Iridoid glycosides	4.102262149
+1	89	Iridoid glycosides	3.812311609
+1	91	Iridoid glycosides	3.270911639
+1	93	Isoflavone O-glycosides	4.746634199
+1	95	Isoflavone O-glycosides	4.679836559
+1	97	Isoflavone O-glycosides	4.267054336
+1	99	Isoflavone O-glycosides	3.922777342
+1	101	Isoflavone O-glycosides	3.760271661
+1	103	Isoflavone O-glycosides	3.75868485
+1	105	Isoflavone O-glycosides	3.387567779
+1	107	Isoflavone O-glycosides	4.135418905
+1	109	Isoflavone O-glycosides	3.022840611
+1	111	Isoflavone O-glycosides	3.385248682
+1	113	Isouramil O-glycosides	4.846757593
+1	115	Isouramil O-glycosides	4.18610838
+1	117	Isouramil O-glycosides	3.503382063
+1	119	Lipids	4.4606423
+1	121	Lipids	4.308948386
+1	123	Nucleosides	4.196866747
+1	125	Organic acids	4.229835367
+1	127	Organic acids	3.714748761
+1	129	Organic acids	3.981637425
+1	131	Organic acids	3.918606915
+1	133	Organic acids	3.913707914
+1	135	Organic acids	3.903415586
+1	137	Organic acids	3.880699289
+1	139	Oxidized fatty acids	3.949243591
+1	141	Oxidized fatty acids	3.939519253
+1	143	Oxidized fatty acids	4.304835069
+1	145	Oxidized fatty acids	5.186752977
+1	147	Phenolic glycosides	4.018242667
+1	149	Phenolic glycosides	3.481729197
+1	151	Phenolic glycosides	3.315340477
+1	153	Phenolic glycosides	3.535547279
+1	155	Phenolic glycosides	3.596926814
+1	157	Quinic acid and derivatives	4.827556651
+1	159	Quinic acid and derivatives	4.586125762
+1	161	Quinic acid and derivatives	4.060395617
+1	163	Quinic acid and derivatives	4.05053442
+1	165	Quinic acid and derivatives	3.740520586
+1	167	Quinic acid and derivatives	4.637949798
+1	169	Quinic acid and derivatives	3.015778756
+1	171	Saccharolipids	4.173565018
+1	173	Sinapinic acid and derivatives	3.982542582
+1	175	Sugars	3.940616082
+1	177	Terpene glycosides	5.036253516
+1	179	Terpene glycosides	3.964306782
+1	181	Terpene glycosides	3.706290957
+2	1	Coumarin and derivatives	4.50609896
+2	3	Coumarin and derivatives	3.902601131
+2	5	Flavonol O-glycosides	4.703059119
+2	7	Flavonol O-glycosides	4.703059119
+2	9	Flavonol O-glycosides	4.138239523
+2	11	Flavonol O-glycosides	4.572116156
+2	13	Flavonol O-glycosides	4.004235366
+2	15	Glucosinolate breakdown metabolites	4.925894543
+2	17	Glucosinolate breakdown metabolites	4.184918454
+2	19	Glucosinolate breakdown metabolites	4.333386812
+2	21	Glucosinolate breakdown metabolites	4.333487578
+2	23	Glucosinolates	4.793811331
+2	25	Glucosinolates	5.224009626
+2	27	Glucosinolates	5.353818172
+2	29	Glucosinolates	4.999426353
+2	31	Glucosinolates	4.969019648
+2	33	Glucosinolates	4.385266569
+2	35	Glucosinolates	4.503804297
+2	37	Lignols	3.94875518
+2	39	Lipids	4.110455024
+2	41	Lipids	3.993524403
+2	43	Oxidized fatty acids	4.334473857
+2	45	Phenolic glycosides	3.983671383
+2	47	Sinapinic acid and derivatives	4.691116871
+2	49	Sinapinic acid and derivatives	3.99484485
+3	1	Amino acids	4.591643281
+3	3	Coumaric acid and derivatives	4.074523888
+3	5	Coumaric acid and derivatives	4.162743583
+3	7	Ferulic acid and derivatives	4.124699809
+3	9	Flavone C,C-glycosides	4.283142863
+3	11	Flavone C,C-glycosides	3.908699432
+3	13	Flavone C,C-glycosides	4.659621502
+3	15	Flavone C-glycosides	4.03614963
+3	17	Flavone C-glycosides	4.108125095
+3	19	Flavone C-glycosides	4.045557669
+3	21	Flavone C-glycosides	4.938799825
+3	23	Flavone C-glycosides	4.430075056
+3	25	Flavone C-glycosides	3.958898195
+3	27	Flavone O-glycosides	4.276829305
+3	29	Flavone O-glycosides	3.937116511
+3	31	Flavonol C,O-glycosides	4.377597626
+3	33	Flavonol O-glycosides	4.444731625
+3	35	Flavonol O-glycosides	4.766554119
+3	37	Nucleosides	4.522131116
+3	39	Organic acids	5.125556082
+3	41	Organic acids	4.052847783
+3	43	Oxidized fatty acids	5.065448996
+3	45	Oxidized fatty acids	4.018450832
+3	47	Oxidized fatty acids	4.095239112
+3	49	Sulfate containing metabolites	4.13583205
+4	1	Anthocyanidin O-glycosides	3.982858942
+4	3	Benzoxazinoids	3.904228516
+4	5	Benzoxazinoids	4.672559628
+4	7	Benzoxazinoids	4.71595323
+4	9	Benzoxazinoids	4.316620252
+4	11	Benzoxazinoids	4.853807684
+4	13	Benzoxazinoids	4.230346722
+4	15	Coumaric acid and derivatives	4.747155351
+4	17	Fatty acyl hexosides	4.391799305
+4	19	Ferulic acid and derivatives	4.310395894
+4	21	Ferulic acid and derivatives	4.729820598
+4	23	Ferulic acid and derivatives	4.351061558
+4	25	Ferulic acid and derivatives	4.52701088
+4	27	Ferulic acid and derivatives	4.341414739
+4	29	Flavone C,O-glycosides	3.975569658
+4	31	Flavone C-glycosides	4.116076172
+4	33	Flavone C-glycosides	4.020651268
+4	35	Flavone C-glycosides	4.204174266
+4	37	Flavone O-glycosides	3.909127942
+4	39	Flavone O-glycosides	4.028408565
+4	41	Flavone O-glycosides	3.924486044
+4	43	Flavone O-glycosides	3.974281359
+4	45	Flavonol O-glycosides	4.040800061
+4	47	Lipids	4.864291505
+4	49	Lipids	4.019822224
+4	51	Lipids	4.099991234
+4	53	Organic acids	4.29249974
+4	55	Quinic acid and derivatives	3.923917223
+4	57	Quinic acid and derivatives	4.687858793
+4	59	Terpene glycosides	4.526416823
+5	1	Allicin derivatives	4.101953177
+5	3	Allicin derivatives	4.003891166
+5	5	Allicin derivatives	4.424031809
+5	7	Benzoxazinoids	4.560277352
+5	9	Flavonol O-glycosides	4.002641149
+5	11	Flavonol O-glycosides	4.039889798
+5	13	Lipids	4.794062606
+5	15	N-Fructosyl amino acids	4.8944213
+5	17	N-Fructosyl peptides	4.788649083
+5	19	N-Fructosyl peptides	4.617744508
+5	21	N-Fructosyl peptides	4.124699809
+5	23	N-Fructosyl peptides	3.97602884
+5	25	Organic acids	4.266231697
+5	27	Organic acids	4.019863714
+5	29	Peptides	4.03802374
+5	31	Peptides	3.934851803
+5	33	Peptides	4.26620817
+5	35	Steroidal saponins	4.602721786
+5	37	Steroidal saponins	4.212560458
+5	39	Sugars	4.130687494
+5	41	Sulfonic acids	4.102742336
+5	43	Sulfonic acids	4.134400256
+6	1	Coumarin and derivatives	4.56511551
+6	3	Dipeptides	4.1532049
+6	5	Dipeptides	4.230474467
+6	7	Dipeptides	3.941908774
+6	9	Fatty acids	4.080987047
+6	11	Ferulic acid and derivatives	3.90439092
+6	13	Nicotianosides	4.093421685
+6	15	Nicotine and derivatives	3.921009801
+6	17	Nicotine and derivatives	5.092818859
+6	19	Nicotine and derivatives	4.038659894
+6	21	Nucleosides	3.99409709
+6	23	Oxidized fatty acids	3.967641564
+6	25	Oxidized fatty acids	4.189630658
+6	27	Oxidized fatty acids	4.274896445
+6	29	Oxidized fatty acids	3.946648734
+6	31	Oxidized fatty acids	4.802561656
+6	33	Oxidized fatty acids	3.957990178
+6	35	Oxidized fatty acids	4.211787763
+6	37	Oxidized fatty acids	3.963410016
+6	39	Oxidized fatty acids	4.459151146
+6	41	Saccharolipids	3.966517176
+6	43	Saccharolipids	4.127234419
+6	45	Saccharolipids	4.049450618
+7	1	Amino acids	4.031852631
+7	3	Amino acids	3.926548225
+7	5	Arylbenzofuran flavonoids	4.461228322
+7	7	Coumaric acid and derivatives	3.97982143
+7	9	Dipeptides	4.603415045
+7	11	Dipeptides	4.276277937
+7	13	Dipeptides	5.147660869
+7	15	Fatty acyl hexosides	4.372064671
+7	17	Ferulic acid and derivatives	4.242690474
+7	19	Flavone O-glycosides	4.320416337
+7	21	Flavone O-glycosides	4.356427442
+7	23	Flavone O-glycosides	4.330718079
+7	25	Flavone O-glycosides	4.462951745
+7	27	Flavone O-glycosides	4.42327865
+7	29	Flavonol O-glycosides	4.356427442
+7	31	Flavonol O-glycosides	4.230653247
+7	33	Flavonol O-glycosides	4.460025373
+7	35	Flavonol O-glycosides	4.654378716
+7	37	Flavonol O-glycosides	4.379504939
+7	39	Flavonol O-glycosides	4.230959556
+7	41	Flavonol O-glycosides	4.907927048
+7	43	Flavonol O-glycosides	4.853052982
+7	45	Isoflavanone O-glycosides	4.549125927
+7	47	Lipids	3.930643441
+7	49	Nucleosides	4.213836388
+7	51	Oxidized fatty acids	4.803443458
+7	53	Oxidized fatty acids	4.328603829
+7	55	Oxidized fatty acids	4.357382103
+7	57	Oxidized fatty acids	4.355125725
+7	59	Oxidized fatty acids	4.207257259
+7	61	Oxidized fatty acids	3.961753214
+7	63	Triterpene saponins	4.809323987
+7	65	Triterpene saponins	4.210826639
+7	67	Triterpene saponins	4.225102426
+7	69	Triterpene saponins	4.297738632
+7	71	Triterpene saponins	4.1184962
+7	73	Triterpene saponins	3.920488565
+7	75	Triterpene saponins	4.222196046
+7	77	Triterpene saponins	3.965812953
+7	79	Triterpene saponins	4.426153268
+7	81	Triterpene saponins	4.43519116
+7	83	Triterpene saponins	4.23884868
+7	85	Triterpene saponins	4.142577161
+7	87	Triterpene saponins	4.400123355
+7	89	Triterpene saponins	4.43964843
+7	91	Triterpene saponins	4.467238021
+8	1	Coumarin and derivatives	4.754348336
+8	3	Coumarin and derivatives	4.133379212
+8	5	Dipeptides	3.91349596
+8	7	Dipeptides	4.204309945
+8	9	Dipeptides	4.317896266
+8	11	Dipeptides	4.000347297
+8	13	Dipeptides	4.048441804
+8	15	Dipeptides	3.980276141
+8	17	Flavone O-glycosides	3.909074401
+8	19	Flavonol O-glycosides	4.436003536
+8	21	Flavonol O-glycosides	4.272352241
+8	23	Flavonol O-glycosides	3.913866812
+8	25	Flavonol O-glycosides	4.967201526
+8	27	Glucuronic acid derivatives	4.15250238
+8	29	Glucuronic acid derivatives	4.118231648
+8	31	Isoflavone O-glycosides	5.73618528
+8	33	Isoflavone O-glycosides	4.168291189
+8	35	Isoflavone O-glycosides	3.932423026
+8	37	Isoflavone O-glycosides	4.267945726
+8	39	Isoflavone O-glycosides	4.102639484
+8	41	Isoflavone O-glycosides	4.425256992
+8	43	Isoflavone O-glycosides	4.664519754
+8	45	Oxidized fatty acids	4.297213196
+8	47	Triterpene saponins	3.968856375
+8	49	Triterpene saponins	4.428118589
+8	51	Triterpene saponins	4.979853275
+8	53	Triterpene saponins	4.343053923
+8	55	Triterpene saponins	3.962606073
+9	1	Biflavonoids	3.958945932
+9	3	Biflavonoids	3.949536373
+9	5	Chalcones	4.143951116
+9	7	Coumarin and derivatives	3.921738484
+9	9	Flavanol O-glycosides	4.238322156
+9	11	Flavanol O-glycosides	4.541379522
+9	13	Flavanone C,O-glycosides	4.524499977
+9	15	Flavanone O-glycosides	3.910517686
+9	17	Flavanone O-glycosides	5.471086253
+9	19	Flavanone O-glycosides	4.603912643
+9	21	Flavanone O-glycosides	4.283708189
+9	23	Flavanone O-glycosides	4.508758589
+9	25	Flavone C,C,O-glycosides	4.279826582
+9	27	Flavone C,C-glycosides	5.157786066
+9	29	Flavone O-glycosides	4.099024216
+9	31	Flavonol O-glycosides	4.645422269
+9	33	Flavonol O-glycosides	4.856867794
+9	35	Hydroxyferulic acid and derivatives	4.697255504
+9	37	Indole and derivatives	4.56937391
+9	39	Isoflavone O-glycosides	4.60421525
+9	41	Isoflavone O-glycosides	4.627632088
+9	43	Isoflavone O-glycosides	4.732659081
+9	45	Lipids	4.104930739
+9	47	Lipids	4.263683401
+9	49	Oxidized fatty acids	4.416374192
+9	51	Prenylated arylbenzofuran flavonoids	4.51854026
+9	53	Prenylated chalcones	4.181614952
+9	55	Prenylated chalcones	4.167376418
+9	57	Prenylated chalcones	4.674943768
+9	59	Prenylated flavanones	4.319564066
+9	61	Prenylated flavanones	4.126131407
+9	63	Prenylated flavanones	3.933740299
+9	65	Prenylated flavanones	5.121208459
+9	67	Prenylated flavanones	4.727020442
+9	69	Prenylated flavanones	4.572894826
+9	71	Prenylated flavones	4.110286608
+9	73	Prenylated flavones	4.106666762
+9	75	Prenylated isoflavanones	4.355029856
+9	77	Prenylated isoflavanones	4.50714045
+9	79	Prenylated isoflavones	3.986547813
+9	81	Prenylated licodiones	4.406148287
+9	83	Prenylated licodiones	4.238873737
+9	85	Prenylated licodiones	4.858260412
+9	87	Prenylated licodiones	4.655820088
+9	89	Prenylated pterocarpans	4.364682296
+9	91	Prenylated stilbenes	4.797066625
+9	93	Pterocarpans	4.645471395
+9	95	Stilbene glycosides	4.056142262
+9	97	Stilbene glycosides	4.94609348
+9	99	Triterpene saponins	3.90439092
+9	101	Triterpene saponins	4.011443562
+9	103	Triterpene saponins	4.602504915
+9	105	Triterpene saponins	4.48790161
+10	1	Chalcones	5.13414522
+10	3	Coumaric acid and derivatives	3.963787827
+10	5	Dipeptides	4.434137589
+10	7	Ferulic acid and derivatives	3.938269483
+10	9	Flavanone O-glycosides	4.004192356
+10	11	Flavone C,C-glycosides	4.876298686
+10	13	Flavone C-glycosides	4.653569454
+10	15	Flavone O-glycosides	4.1023994
+10	17	Flavone O-glycosides	4.374565061
+10	19	Flavone O-glycosides	4.902258604
+10	21	Flavonol O-glycosides	5.338317019
+10	23	Flavonol O-glycosides	4.419063124
+10	25	Flavonol O-glycosides	4.074999186
+10	27	Flavonol O-glycosides	4.82802797
+10	29	Flavonol O-glycosides	4.208656301
+10	31	Flavonol O-glycosides	4.049489372
+10	33	Flavonol O-glycosides	4.462188288
+10	35	Flavonol O-glycosides	4.170584382
+10	37	Flavonol O-glycosides	4.009025742
+10	39	Isoflavone O-glycosides	5.132339751
+10	41	Isoflavone O-glycosides	4.114911084
+10	43	Isoflavone O-glycosides	4.831293744
+10	45	Isoflavone O-glycosides	5.019822224
+10	47	Phenolic glycosides	4.022345876
+10	49	Prenylated chalcones	4.261334254
+10	51	Prenylated chalcones	4.216614486
+10	53	Prenylated flavanones	4.791501174
+10	55	Prenylated flavanones	3.941312625
+10	57	Prenylated isoflavones	3.916559219
+10	59	Prenylated stilbenes	5.362201525
+10	61	Prenylated stilbenes	4.084612021
+10	63	Triterpene saponins	4.015820634
+10	65	Triterpene saponins	4.194542091
+10	67	Triterpene saponins	4.032417279
+10	69	Triterpene saponins	4.181614952
+11	1	Amino acids	4.695105008
+11	3	Amino acids	4.548647338
+11	5	Amino acids	4.202597286
+11	7	Amino acids	3.931762888
+11	9	Caffeic acid and derivatives	4.170730969
+11	11	Caffeic acid and derivatives	3.969509099
+11	13	Fatty acyl hexosides	4.196590654
+11	15	Fatty acyl hexosides	3.969415912
+11	17	Fatty acyl hexosides	4.364307047
+11	19	Ferulic acid and derivatives	3.915399835
+11	21	Ferulic acid and derivatives	3.99550357
+11	23	Ferulic acid and derivatives	4.158181498
+11	25	Ferulic acid and derivatives	4.405295123
+11	27	Flavonol O-glycosides	4.881150611
+11	29	Flavonol O-glycosides	3.97183228
+11	31	Lipids	4.509054595
+11	33	Lipids	5.08056877
+11	35	Lipids	4.639904645
+11	37	Lipids	4.030275803
+11	39	Lipids	4.331326051
+11	41	Lipids	4.555360509
+11	43	N-Fructosyl amino acids	4.270445908
+11	45	N-Fructosyl amino acids	4.100990523
+11	47	Organic acids	4.854621778
+11	49	Steroidal saponins	4.58683476
+11	51	Steroidal saponins	4.684279693
+11	53	Steroidal saponins	5.091068732
+11	55	Steroidal saponins	5.412507586
+11	57	Steroidal saponins	4.300877966
+12	1	Alkyl benzyl hexosides	4.274711914
+12	3	Amino acids	4.239199342
+12	5	Caffeic acid and derivatives	4.521399628
+12	7	Caffeic acid and derivatives	4.622980358
+12	9	Caffeic acid and derivatives	4.267101297
+12	11	Coumaric acid and derivatives	3.914713287
+12	13	Flavonol O-glycosides	4.759161502
+12	15	Lipids	4.024157154
+12	17	Lipids	4.55929603
+12	19	Quinic acid and derivatives	4.108734109
+12	21	Steroidal saponins	4.887313413
+12	23	Steroidal saponins	4.601745014
+12	25	Steroidal saponins	5.126329507
+12	27	Steroidal saponins	4.14113609
+12	29	Steroidal saponins	5.78978653
+12	31	Steroidal saponins	5.348628029
+12	33	Steroidal saponins	4.127104798

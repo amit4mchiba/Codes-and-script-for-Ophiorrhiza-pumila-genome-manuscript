@@ -1,0 +1,7 @@
+seg1	pos1	name1	seg2	pos2	name2
+1	83	Iridoid glycosides	1	85	Iridoid glycosides
+1	83	Iridoid glycosides	1	87	Iridoid glycosides
+1	85	Iridoid glycosides	1	83	Iridoid glycosides
+1	85	Iridoid glycosides	1	87	Iridoid glycosides
+1	87	Iridoid glycosides	1	83	Iridoid glycosides
+1	87	Iridoid glycosides	1	85	Iridoid glycosides
