@@ -1,19 +1,15 @@
+# This script was used to create bionano de novo assembly for O. pumila. Here, we used O. pumila canu best assembly to derive the process. 
+# Acquired Bionano optical maps sequencing datasets were first filtered using length cutoff as 150 Kb and were used to derive Bionano de novo genome assembly.
+# We used Canu-assembly as the reference genome to guide de novo genome assembly and generated the “.cmap” file with length cutoff as 20 Kb and at least five restriction digestion sites. Following commands were used to run
+# Bionano Solve (v 3.1) for reference guided genome assembly pipelinepython
 #!/bin/bash
 
-
-echo "This is another round of bionano guided de novo assembly, but this one is for hybrid scaffolding. The previous one is for sv calling. Here I have used filtering bnx for atleast 5 sites, and have chnaged the .xml file accordingly"
-
-python /home/amit8chiba/software/bionano/Solve3.1_08232017/Pipeline/08212017/pipelineCL.py -U -T 120 -j 60 -N 8 -f 0.3 -i 5 -y -b /mnt/md0/Bionano_data/Bionano_Solve_results/Pumila_pbjelly_arrow_pilon/Molecules.bnx \
--l /mnt/md0/Bionano_data/Bionano_Solve_results/Opu_r1.2/Bionano_Op_strict/Output_strict_Opu_r1.2_denovo \
--t /home/amit8chiba/software/bionano/Solve3.1_08232017/RefAligner/6700.6902rel \
--a /home/amit8chiba/software/bionano/Solve3.1_08232017/RefAligner/6700.6902rel/optArguments_nonhaplotype_irys_Amit_4thMay2018.xml \
--r /mnt/md0/Bionano_data/Bionano_Solve_results/Opu_r1.2/Bionano_Op_strict/Opu_r1.2_BSSSI_20kb_5labels.cmap
+pipelineCL.py -U -T 60 -j 60 -N 8 -f 0.3 -i 5 -y -b Molecules.bnx \
+-l Output_Pumila \
+-t ./RefAligner/6700.6902rel \
+-a ./RefAligner/6700.6902rel/optArguments_nonhaplotype_irys_Amit_4thMay2018.xml \
+-r Canu-assembly_BSSSI_20kb_5labels.cmap
 
 
-echo "Today is 24th July 2018, and I am using our final draft genome and map bionano to check quality of the assembly. Here, we are using Molecules identified by Irys viewer and filtered for length as 100kb. Here I have used filtering bnx for atleast 5 sites, and have chnaged the .xml file accordingly"
-
-python /home/amit8chiba/software/bionano/Solve3.1_08232017/Pipeline/08212017/pipelineCL.py -U -T 120 -j 60 -N 8 -f 0.3 -i 5 -y -b /mnt/md0/Bionano_data/Bionano_Solve_results/Pumila_pbjelly_arrow_pilon/Molecules.bnx \
--l /mnt/md0/Bionano_data/Bionano_Solve_results/Opu_r1.2/Bionano_Op_strict/Output_strict_Opu_r1.2_sv \
--t /home/amit8chiba/software/bionano/Solve3.1_08232017/RefAligner/6700.6902rel \
--a /home/amit8chiba/software/bionano/Solve3.1_08232017/RefAligner/6700.6902rel/optArguments_haplotype_irys_Amit_4thMay2018.xml \
--r /mnt/md0/Bionano_data/Bionano_Solve_results/Opu_r1.2/Bionano_Op_strict/Opu_r1.2_BSSSI_20kb_5labels.cmap
+# Please refere to Bionano Solve 3.1 manual for more details related to the commands and different parameters used. The optArguments_nonhaplotype_irys_Amit_4thMay2018.xml and .cmp file is 
+# provided in this resource
