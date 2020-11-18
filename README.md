@@ -11,3 +11,5 @@ All raw data and assembled sequence data have been deposited at the DDBJ databas
 
 All sequence datasets, assembled genome, transcriptome datasets, genome browser, annotation, and KEGG mapping results are available through a dedicated server to perform comparative genome analysis-
 # http://pumila.kazusa.or.jp/
+
+All assembly stats described in the manuscript were derived using assemblathon_stats.pl (https://github.com/KorfLab/Assemblathon/blob/master/assemblathon_stats.pl). We have here included the perl script with this repository. The script works fine for perl (v5.16)
