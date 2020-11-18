@@ -1,17 +1,16 @@
-# Circos-plot-for-12-plant-metabolome-analysis
-The data and scripts were used to create circos plot for Fig. 4 of the manuscript
+# Bionano-Contig stage assembly hybrid scaffolding
+In this study, we performed scaffolding using Bionano de novo genome assembly as well as Hi-C
+library pair-end sequencing datasets. Canu-assembly (or Falcon-unzip-assembly or genome
+assemblies scaffolded using Hi-C library) was used together with Bionano de novo assembly to
+derive hybrid scaffolding using Bionano Solve v3.0.1 software.
 
-Metabolites of Ophiorrhiza pumila, assigned using 13C and 15N stable isotope labeling, compared with metabo-space of 11 plant species. The connections between metabolite features are based on metabolite network relationships defined by a correlation coefficient greater than 0.85. Highly accumulated metabolites across 12 plant species and their relationships in the form of metabo-ontology and scaled accumulation levels as a heat-map are shown here. Metabolites were filtered (log10 intensity > 3.9) and assigned to the Ophiorrhiza pumila category. If a metabolite were not detected in Ophiorrhiza pumila, then the metabolite was assigned to the plant category with the highest accumulation compared to the rest of the plant species. * indicates chemically assigned metabolites based on pure standards or MS/MS analysis using public databases.
+We tested individual scaffolding using Bionano de novo assembly or Hi-C libraries, as well as intandem
+scaffolding using both Bionano de novo assembly and Hi-C libraries sequencing datasets.
+Bionano scaffolding for Canu-assembly resulted in 83 contigs (out of 108 contigs) assigned to 45
+scaffolds, with contig and scaffold N50 as 8.21 Mb and 21.05 Mb, respectively, and cumulative
+genome assembly as 442Mb. In total, we detected 15 chimeric sites in 9 contigs, which
+were manually verified and were used as evidence to split at the sites of misassemblies, leading to
+contig N50 drop to 8.21 Mb from 9.38 Mb. Bionano-scaffolded Canu-assembly also consisted of
+117 assembly gaps.
 
-The metabo-ontologies shown in this figure are classification of metabolites based on daughter ions that are specific or related to an ontology term.
-
-The objective for this figure is to provide two main information’s- (i) Relative accumulation of metabolites identified across 12 plant species, and (ii) Linkage between species based on daughter ions based metabolite-ontology based classification. The links between two boxes are based on daughter ions based metabo-ontology as described in Tsugawa et al. 2019. For the circus plot, these are steps we followed-
-1.	We first filtered metabolites based on intensity irrespective of plant species (log10 intensity > 3.9). In total, we obtained 424 metabolites across 12 plant species, including 91 metabolites for O. pumila.
-2.	We next assigned any metabolite identified in Ophiorrhiza pumila to it’s category, as we wanted to represent accumulation of identified metabolites with respect to other plant species.
-3.	For the metabolites that were not identified in Ophiorrhiza pumila, we assigned it to the plant as category that showed highest accumulation among rest of the plant species. 
-4.	We next plotted its accumulation across all 12 plant species as the heatmap.
-
-
-A circus plot plant category does not mean that the metabolite is specific to it, but rather have the highest intensity among all compared plant species, and then the heatmap showed its levels across other species. As can be seen from this plot, metabolites been highly accumulated in Ophiorrhiza are specific to it, and belongs to MIA and other specialized metabolite classes. Similarly, two licorice plants, G. uralensis and G. glabra, showed very similar types and accumulation of metabolites, which is what we expected as both plants are known to have similar chemotypes. 
-
-In order to reproduce Fig. 4 of the manuscript, titled, "Multi-scaffolding driven chromosome-level Ophiorrhiza genome revealed gene-cluster centered evolution of camptothecin biosynthesis", one need to download all dataset including link files, and simply run the rscript.
+# Raw Bionano Molecules files are deposited under DRA009076; BioProject id- PRJDB8685, BioSample id- SAMD00177989; Experiment- DRX185163-DRX185191; Run: DRR194711-DRR194739. All analysis and figures are available through manuscript main file and supplementary files
