@@ -6,3 +6,8 @@ Plant genome assemblies remain highly fragmented with hundreds to thousands of a
 In this github database, we have provided all codes that were used for creating genome assembly of Ophiorrhiza pumila, and for omics analysis. Informations on Raw data, basic R codes and statistical analysis performed are provided through supplementary files, data availibity statement and method section.
 
 For any question or comment, kindly email to amit.rai@riken.jp; amit.rai@chiba-u.jp
+
+All raw data and assembled sequence data have been deposited at the DDBJ database under the following annotations: Submission id- DRA009076; BioProject id- PRJDB8685, BioSample id- SAMD00177989; Experiment- DRX185163-DRX185191; Run: DRR194711-DRR194739. Assembled O. pumila genome assembly has been deposited at the DDBJ database (accession ids- BLIW01000001- BLIW01000013). 
+
+All sequence datasets, assembled genome, transcriptome datasets, genome browser, annotation, and KEGG mapping results are available through a dedicated server to perform comparative genome analysis-
+# http://pumila.kazusa.or.jp/
